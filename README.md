@@ -17,8 +17,8 @@ sampleid_expression.csv
 Create the mouse LR table from LIANA consensus:
 
 ```bash
-python -m pip install "liana>=1.7"
-mkdir -p datacache
+python pip install "liana>=1.7"
+mkdir datacache
 ```
 
 ```python
