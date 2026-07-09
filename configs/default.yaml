@@ -1,0 +1,18 @@
+expression_path: data/example_expression.csv
+metadata_path: data/example_metadata.csv
+out_dir: output/example_seed42
+
+celltype_col: cell_type
+age_col: age
+seed: 42
+
+lr_pairs_path: data/cache/lr_pairs/liana_mouse_consensus.csv
+ligand_target_prior_path: data/cache/downstream/nichenet_ligand_target.csv
+
+readiness_target_path:
+readiness_target_cell_col: cell
+readiness_target_col: pseudotime_like
+
+n_label_permutations: 20
+n_lr_permutations: 0
+lr_permutation_max_pairs: 500

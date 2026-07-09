@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+.pytest_cache/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# IDE
+.vscode/
+.cursor/
+.DS_Store
+
+# Data and outputs (not for repo)
+data/
+output/
+*.rds
+*.mtx
+*.npy
+
+
+
+# Logs and temp
+*.log
+/tmp/
