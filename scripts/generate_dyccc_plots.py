@@ -97,7 +97,6 @@ def main():
         plot_incoming_celltype_summary(out_dir, plot_format=args.plot_format)
         plot_outgoing_celltype_summary(out_dir, plot_format=args.plot_format)
 
-    print(f"Generated plots in {out_dir} with plot_parts={sorted(parts)} format={args.plot_format}")
 
 
 if __name__ == "__main__":

@@ -2,10 +2,8 @@
 """Normalize ligand-receptor resources to DyCCC's ligand,receptor CSV format."""
 
 from __future__ import annotations
-
 import argparse
 from pathlib import Path
-
 import pandas as pd
 
 
@@ -40,8 +38,6 @@ def main():
     )
     args.output.parent.mkdir(parents=True, exist_ok=True)
     out.to_csv(args.output, index=False)
-    print(f"Saved {len(out)} ligand-receptor pairs to {args.output}")
-
 
 if __name__ == "__main__":
     main()
