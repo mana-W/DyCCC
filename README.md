@@ -2,6 +2,8 @@
 
 DyCCC is a graph neural network framework that integrates ligand-receptor priors, ligand-target activity, and transcriptomic context to infer cell-cell communication from single-cell RNA-seq data.
 
+![DyCCC workframe](figures/workframe.png)
+
 ## Input
 
 DyCCC uses two input files:
