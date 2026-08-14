@@ -75,7 +75,7 @@ PYTHONPATH=src python -m dyccc.pipeline \
   --config data.yaml
 ```
 
-## Plot after training
+Plot after training
 
 ```bash
 PYTHONPATH=src python scripts/generate_dyccc_plots.py \
