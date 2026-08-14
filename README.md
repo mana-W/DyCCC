@@ -73,16 +73,6 @@ PYTHONPATH=src python -m dyccc.pipeline \
   --config data.yaml
 ```
 
-For a separate LR-pair stability check:
-
-```bash
-PYTHONPATH=src python -m dyccc.pipeline \
-  --config data.yaml \
-  --out-dir output/sampleid \
-  --n-label-permutations 0 \
-  --n-lr-permutations 5 
-```
-
 ## Plot after training
 
 ```bash
